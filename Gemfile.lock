@@ -78,6 +78,7 @@ GEM
       mime-types (>= 1.16, < 3)
       nokogiri (~> 1.5)
       rails (>= 3, < 5)
+    database_cleaner (1.5.1)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.6.0)
@@ -187,9 +188,10 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   better_errors
   bootstrap-sass (~> 3.3.5.1)
-  capybara-webkit (~> 1.7.1)
+  capybara-webkit
   coffee-rails (~> 4.1.0)
   cucumber-rails
+  database_cleaner
   jbuilder (~> 2.0)
   jquery-rails
   pg

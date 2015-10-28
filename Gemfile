@@ -50,8 +50,9 @@ group :development do
 end
 
 group :test do
-  gem 'cucumber-rails'
-  gem 'capybara-webkit', '~> 1.7.1'
+  gem 'cucumber-rails', require: false
+  gem 'capybara-webkit'
+  gem 'database_cleaner'
 end
 
 group :production do
